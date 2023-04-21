@@ -1,0 +1,42 @@
+:root {
+    --color: #181818;
+    --color2: green;
+    --color3: white;
+
+}
+
+*{
+    display: flex;
+    background-color: var(--color);
+}
+
+.searchbutton{
+    color: var(--color3);
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+}
+.searchbar{
+    color: grey;
+    background-color: var(--color3);
+    display: flex;
+    justify-content: center;
+}
+.formatselector{
+    color: var(--color);
+    background-color: var(--color3);
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    color: darkblue;
+    background-color: var(--color3);
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 25px;
+    color: var(--color3);
+}
